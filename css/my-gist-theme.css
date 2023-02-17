@@ -1,0 +1,59 @@
+/* D2Coding 웹폰트 설정 */
+@import url("http://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/d2coding.css");
+
+/* gist 컨테이너의 위아래 여백과 모양 맞추기 */
+.gist .gist-data {
+    border-radius: 6px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #282c34 !important;
+}
+
+/* gist의 배경과 글씨체 변경 */
+body .gist .highlight td {
+    background : #282c34;
+    font-family: 'D2 coding', monospace;
+    font-size: 16px;
+}
+
+body .gist .pl-s1,
+body .gist .blob-code,
+body .gist .pl-pds {
+    color: #abb2bf;
+}
+
+body .gist .pl-c {
+    color: #5c6370;
+    font-style: italic;
+}
+
+body .gist .pl-k {
+    color: #c678dd;
+}
+
+body .gist .pl-s {
+    color: #98c379;
+}
+
+body .gist .pl-en {
+    color: #61aeee;
+}
+
+body .gist .pl-c1 {
+    color: #d19a66;
+}
+
+body .gist .pl-kos, 
+body .gist .pl-v {
+    color: #e6c07b;
+}
+
+body .gist .pl-smi,
+body .gist .pl-ent {
+    color: #ec6c75;
+}
+
+/* gist 하단의 출처 숨기기 */
+body .gist .gist-meta {
+    display: none;
+}
