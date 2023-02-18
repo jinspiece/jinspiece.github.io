@@ -18,7 +18,6 @@
   <img src="img/my-gist-theme-python.png" title="my gist theme 적용한 python" alt="my-gist-theme-python.png"></img></br>
 
 ## 사용법
----
 아래 코드를 link로 바꿔주는 사이트(https://www.notion-tools.com/embeds/html)를 이용해서 embed하기
 ``` html
 <link rel="stylesheet" type="text/css" href="https://jinspiece.github.io/css/my-gist-theme.css"/>
@@ -29,7 +28,6 @@
 ```
 
 ## 한계점
----
 1. 주로 사용하는 마크업 언어나 프로그래밍 언어 환경(html, css, js, python, java)에서만 확인했기 때문에 적용했을 때 예상과 다르게 보일 수 있다. 
 2. gist의 클래스 분류 기반으로 적용했기 때문에 같은 코드여도 띄어쓰기로 color 적용이 달라질 수 있다.
     - css에서 'color:'와 'color :'는 다른 class로 분류되기 때문에 이 테마 기준으로는 'color:'로 적용해야 의도대로 보여진다.
