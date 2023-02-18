@@ -18,7 +18,7 @@
   <img src="img/my-gist-theme-python.png" title="my gist theme 적용한 python" alt="my-gist-theme-python.png"></img></br>
 
 ## 사용법
-아래 코드를 link로 바꿔주는 사이트(https://www.notion-tools.com/embeds/html)를 이용해서 embed하기
+아래 코드를 link로 바꿔주는 사이트(https://www.notion-tools.com/embeds/html) 를 이용해서 embed하기
 ``` html
 <link rel="stylesheet" type="text/css" href="https://jinspiece.github.io/css/my-gist-theme.css"/>
 
